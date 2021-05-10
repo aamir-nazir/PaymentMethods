@@ -36,7 +36,7 @@
 		259263542649920A00139DE6 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259263532649920A00139DE6 /* NetworkModel.swift */; };
 		259263562649921400139DE6 /* ApplicableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259263552649921400139DE6 /* ApplicableModel.swift */; };
 		25926358264992DD00139DE6 /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25926357264992DD00139DE6 /* LinkModel.swift */; };
-		2592635C264994FC00139DE6 /* RepoNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592635A264994FC00139DE6 /* RepoNetworkManager.swift */; };
+		2592635C264994FC00139DE6 /* PaymentNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592635A264994FC00139DE6 /* PaymentNetworkManager.swift */; };
 		2592635D264994FC00139DE6 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592635B264994FC00139DE6 /* ImageDownloadManager.swift */; };
 		2592636026499C2900139DE6 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2592635F26499C2900139DE6 /* NSObjectExtension.swift */; };
 		259263622649A26800139DE6 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259263612649A26800139DE6 /* ImageCache.swift */; };
@@ -100,7 +100,7 @@
 		259263532649920A00139DE6 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		259263552649921400139DE6 /* ApplicableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicableModel.swift; sourceTree = "<group>"; };
 		25926357264992DD00139DE6 /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
-		2592635A264994FC00139DE6 /* RepoNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoNetworkManager.swift; sourceTree = "<group>"; };
+		2592635A264994FC00139DE6 /* PaymentNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentNetworkManager.swift; sourceTree = "<group>"; };
 		2592635B264994FC00139DE6 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
 		2592635F26499C2900139DE6 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		259263612649A26800139DE6 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
@@ -290,7 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				2592635B264994FC00139DE6 /* ImageDownloadManager.swift */,
-				2592635A264994FC00139DE6 /* RepoNetworkManager.swift */,
+				2592635A264994FC00139DE6 /* PaymentNetworkManager.swift */,
 				259263682649A85600139DE6 /* ImageCacheManager.swift */,
 			);
 			path = Manager;
@@ -470,7 +470,7 @@
 				259263382649874000139DE6 /* NetworkProtocol.swift in Sources */,
 				259263262649872000139DE6 /* APIError.swift in Sources */,
 				259263322649873700139DE6 /* APIRequest.swift in Sources */,
-				2592635C264994FC00139DE6 /* RepoNetworkManager.swift in Sources */,
+				2592635C264994FC00139DE6 /* PaymentNetworkManager.swift in Sources */,
 				2592632F2649873700139DE6 /* PaymentMethodListResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
