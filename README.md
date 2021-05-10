@@ -2,6 +2,9 @@
 ### Description:
 `PaymentMethods` is the project implemented to display Payment Networks list. In the code base there are inline comments(where necessary) to explain the intention and behaviour of different entities.
 
+### Git Branch:
+Master branch contains most recent code base.
+
 ### Project Architecture: MVVM
 ### Code Desing:
 SOLID principles are being followed mostly.
