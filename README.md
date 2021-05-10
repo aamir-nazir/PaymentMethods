@@ -6,7 +6,7 @@
 Master branch contains most recent code base.
 
 ### Project Architecture: MVVM
-### Code Desing:
+### Code Design:
 SOLID principles are being followed mostly.
 
 ### Swift Version: 5.0
